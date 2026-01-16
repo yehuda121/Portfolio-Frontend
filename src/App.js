@@ -14,6 +14,8 @@ import SimpleCalculator from './portfolio/Calculators/SimpleCalculator/SimpleCal
 import Navbar from './portfolio/components/Navbar/Navbar';
 import ClickerGame from './portfolio/games/ClickerGame/ClickerGame';
 import WizardArenaGame from './portfolio/games/WizardArena/WizardArenaGame';
+import ToolsHome from './portfolio/tools/ToolsHome/ToolsHome';
+import JpgToPdf from './portfolio/tools/jpg-to-pdf/JpgToPdf';
 
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
         <Route path="/CalculatorsHome" element={<CalculatorsHome />} />
         <Route path="/ClickerGame" element={<ClickerGame />} />
         <Route path="/WizardArena3D" element={<WizardArenaGame />} />
+        <Route path="/ToolsHome" element={<ToolsHome/>} />
+        <Route path="/JpgToPdf" element={<JpgToPdf/>} />
         {/* <Route path="/GraphicCalculator" element={<GraphicCalculator/>} /> */}
       </Routes>
     </BrowserRouter>

@@ -118,7 +118,44 @@
         "subtitle": "A 3D action prototype built in Unity. The WebGL version is part of a learning project.",
         "instructions": "How to play: Control the game with the arrow keys (left, right, forward), use the down arrow for aiming mode, press Space to cast a spell, and press S to activate a defensive shield.",
         "keyboardWarning": "This game requires a physical keyboard (touch-only devices like phones or tablets are not supported)."
+    },
+    
+    "ToolsHome": {
+        "pageTitle": "Tools",
+        "pageSubtitle": "Pick a tool to launch.",
+        "jpgToPdfTitle": "JPG to PDF Converter",
+        "jpgToPdfDesc": "Convert one or more images into a clean PDF document quickly and easily.",
+        "openTool": "Open tool"
+    },
+
+    "JpgToPdf": {
+        "title": "JPG to PDF Converter",
+        "subtitle": "Upload images, drag to reorder, click convert, then download the PDF.",
+        "addImages": "Add images",
+        "clearAll": "Clear all",
+        "dropTitle": "Drag & drop images here",
+        "dropHint": "Supported: JPG / JPEG / PNG. You can select as many images as you want.",
+        "previewTitle": "Preview",
+        "reorderHint": "Reorder: drag a card and drop it onto another card.",
+        "emptyState": "No images uploaded yet.",
+        "convert": "Convert to PDF",
+        "converting": "Converting…",
+        "downloadPdf": "Download PDF",
+        "remove": "Remove",
+        "removeImage": "Remove image",
+        "imageAlt": "Image to convert",
+        "noImagesError": "Please upload at least one image before converting.",
+        "invalidFileType": "Only JPG / JPEG / PNG image files are supported.",
+        "convertFailed": "Conversion failed. Please try again with different images.",
+
+        "howItWorksTitle": "How does it work behind the scenes?",
+        "howItWorksP1": "The entire conversion happens locally in your browser — no files are uploaded to an external server.",
+        "howItWorksP2": "After you upload images, they are temporarily kept in memory and shown as previews. You can drag to reorder them, and the chosen order becomes the page order in the final PDF.",
+        "howItWorksP3": "When you click \"Convert\", each image is processed individually: the tool reads the file, detects its original dimensions, and creates a matching PDF page with the correct size and orientation. Each image is then added as a new page.",
+        "howItWorksP4": "Once finished, a complete PDF is generated and becomes available for instant download. Everything stays on your device — fast, private, and with no data sent out."
     }
+    
+
     
 
 }
