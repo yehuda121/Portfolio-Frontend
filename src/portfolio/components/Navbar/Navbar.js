@@ -90,6 +90,13 @@ function Navbar() {
           {/* -------------------------------------------------------------- */}
 
           <nav className="navbar-links">
+           <Link
+              to="/ToolsHome"
+              className="navbar-link"
+            >
+              {t('navbar.tools')}
+            </Link>
+
             <Link
               to="/GamesHome"
               className="navbar-link"

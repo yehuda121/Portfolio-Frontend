@@ -56,7 +56,8 @@
         "contactEmailLabel": "Email:",
         "contactPhoneLabel": "Phone:",
         "contactLinkedinLabel": "LinkedIn:",
-        "contactGithubLabel": "GitHub:"
+        "contactGithubLabel": "GitHub:",
+        "tools": "tools"
     },
 
     "navbar": {

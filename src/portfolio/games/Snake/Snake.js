@@ -296,11 +296,10 @@ const Snake = () => {
           <span className="snake-score">
             {t("snake.scoreLabel")}: {foodsEaten}
           </span>
-          {/* best score 
+          best score 
           <span className="snake-best">
             {t("snake.bestLabel")}: {bestScore}
           </span>
-          */}
         </div>
 
         {/* Game over overlay */}

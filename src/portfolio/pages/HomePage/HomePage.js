@@ -265,6 +265,12 @@ function Homepage() {
             >
               {t('homepage.toolsGames')}
             </Link>
+            <Link
+              to="/toolsHome"
+              className="homepage-tools-btn homepage-tools-btn-secondary"
+            >
+              {t('homepage.tools')}
+            </Link>
             {/* <Link
               to="/CalculatorsHome"
               className="homepage-tools-btn homepage-tools-btn-secondary"

@@ -56,7 +56,8 @@
         "contactEmailLabel": "אימייל:",
         "contactPhoneLabel": "טלפון:",
         "contactLinkedinLabel": "לינקדאין:",
-        "contactGithubLabel": "גיטאב:"
+        "contactGithubLabel": "גיטאב:",
+        "tools": "כלים"
     },
 
     "navbar": {
