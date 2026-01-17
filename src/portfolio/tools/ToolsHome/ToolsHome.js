@@ -18,6 +18,13 @@ const ToolsHome = () => {
         actionKey: "ToolsHome.openTool",
         route: "/JpgToPdf",
       },
+      {
+        id: "pdf-merge",
+        titleKey: "ToolsHome.pdfMergeTitle",
+        descKey: "ToolsHome.pdfMergeDesc",
+        actionKey: "ToolsHome.openTool",
+        route: "/PdfMerge"
+      }
     ],
     []
   );

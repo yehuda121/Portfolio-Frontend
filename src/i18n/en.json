@@ -125,7 +125,9 @@
         "pageSubtitle": "Pick a tool to launch.",
         "jpgToPdfTitle": "JPG to PDF Converter",
         "jpgToPdfDesc": "Convert one or more images into a clean PDF document quickly and easily.",
-        "openTool": "Open tool"
+        "openTool": "Open tool",
+        "pdfMergeTitle": "Merge PDF Files",
+        "pdfMergeDesc": "Combine multiple PDF files into a single document with drag-and-drop reordering."
     },
 
     "JpgToPdf": {
@@ -149,10 +151,39 @@
         "convertFailed": "Conversion failed. Please try again with different images.",
 
         "howItWorksTitle": "How does it work behind the scenes?",
-        "howItWorksP1": "The entire conversion happens locally in your browser — no files are uploaded to an external server.",
+        "howItWorksP1": "The entire conversion happens locally in your browser - no files are uploaded to an external server.",
         "howItWorksP2": "After you upload images, they are temporarily kept in memory and shown as previews. You can drag to reorder them, and the chosen order becomes the page order in the final PDF.",
         "howItWorksP3": "When you click \"Convert\", each image is processed individually: the tool reads the file, detects its original dimensions, and creates a matching PDF page with the correct size and orientation. Each image is then added as a new page.",
-        "howItWorksP4": "Once finished, a complete PDF is generated and becomes available for instant download. Everything stays on your device — fast, private, and with no data sent out."
+        "howItWorksP4": "Once finished, a complete PDF is generated and becomes available for instant download. Everything stays on your device - fast, private, and with no data sent out."
+    },
+
+    "PdfMerge": {
+        "title": "Merge PDF Files",
+        "subtitle": "Upload multiple PDF files, drag to reorder, click merge, then download the combined PDF.",
+        "addFiles": "Add files",
+        "clearAll": "Clear all",
+        "limitHint": "Limit: {max} files",
+        "dropTitle": "Drag & drop PDF files here",
+        "dropHint": "The order you choose becomes the page order in the final file.",
+        "previewTitle": "Preview",
+        "reorderHint": "Reorder: drag a card and drop it onto another card.",
+        "emptyState": "No PDF files uploaded yet.",
+        "merge": "Merge into one PDF",
+        "merging": "Merging…",
+        "downloadPdf": "Download merged PDF",
+        "remove": "Remove",
+        "removeFileAria": "Remove file",
+        "needAtLeastTwo": "Please upload at least two PDF files to merge.",
+        "invalidFileType": "Only PDF files are supported.",
+        "maxFilesReached": "You reached the maximum of {max} files.",
+        "someFilesIgnored": "Some files were not added (max {max}).",
+        "mergeFailed": "Merge failed. Please try again with different files.",
+        "progressLabel": "Merging file {current} of {total}",
+        "howItWorksTitle": "How does it work behind the scenes?",
+        "howItWorksP1": "Everything happens locally in your browser — no files are uploaded to an external server.",
+        "howItWorksP2": "After uploading PDFs, you can drag to reorder them. The chosen order becomes the page order in the combined file.",
+        "howItWorksP3": "When you click \"Merge\", each PDF is loaded in memory and its pages are copied into a new document according to your order.",
+        "howItWorksP4": "Once finished, a single merged PDF is generated and becomes available for instant download. Everything stays on your device - fast, private, and with no data sent out."
     }
     
 

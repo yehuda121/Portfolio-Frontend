@@ -16,6 +16,7 @@ import ClickerGame from './portfolio/games/ClickerGame/ClickerGame';
 import WizardArenaGame from './portfolio/games/WizardArena/WizardArenaGame';
 import ToolsHome from './portfolio/tools/ToolsHome/ToolsHome';
 import JpgToPdf from './portfolio/tools/jpg-to-pdf/JpgToPdf';
+import PdfMerge from './portfolio/tools/pdf-merge/PdfMerge';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path="/WizardArena3D" element={<WizardArenaGame />} />
         <Route path="/ToolsHome" element={<ToolsHome/>} />
         <Route path="/JpgToPdf" element={<JpgToPdf/>} />
+        <Route path="/PdfMerge" element={<PdfMerge />} />
         {/* <Route path="/GraphicCalculator" element={<GraphicCalculator/>} /> */}
       </Routes>
     </BrowserRouter>
