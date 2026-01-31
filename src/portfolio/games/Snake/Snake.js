@@ -29,12 +29,14 @@ const Snake = () => {
   const touchStartX = useRef(null);
   const touchStartY = useRef(null);
   const { t } = useTranslation();
+  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
   // Backend calls: best score
   // Fetch best score from backend
   const fetchBestScore = async () => {
     try {
-      const res = await fetch("/api/snake/best-score");
+      // const res = await fetch("/api/snake/best-score");
+      const res = await fetch(`${API_BASE_URL}/api/snake/best-score`);
       if (!res.ok) return;
 
       const data = await res.json();
@@ -49,7 +51,8 @@ const Snake = () => {
   // Submit current score on game over
   const submitScore = async (score) => {
     try {
-      const res = await fetch("/api/snake/submit-score", {
+      // const res = await fetch("/api/snake/submit-score", {
+      const res = await fetch(`${API_BASE_URL}/api/snake/submit-score`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ score }),
